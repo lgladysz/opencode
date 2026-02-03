@@ -1,0 +1,53 @@
+packages/opencode/test/session/instruction.test.ts
+  2e31351a75552a88 5,72-144
+packages/opencode/src/session/instruction.ts
+  2e31351a75552a88 20,22,24,26
+packages/web/src/content/docs/config.mdx
+  1b8152019c9cdd30 145-158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "d899a148522f115f6a864d65449bdb2de8e1ec75",
+  "prompts": {
+    "1b8152019c9cdd30": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_3dacfcd93ffeF5K1qZv1jjf89a",
+        "model": "google/gemini-3-flash-preview"
+      },
+      "human_author": "Łukasz Gładysz <lukasz@gladysz.me>",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 0,
+      "accepted_lines": 14,
+      "overriden_lines": 0
+    },
+    "2bb5b2245e4f7ac9": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_3db18bcdcffeHOwGQi1oXAEQ6S",
+        "model": "opencode/kimi-k2.5"
+      },
+      "human_author": "Łukasz Gładysz <lukasz@gladysz.me>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    },
+    "2e31351a75552a88": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_3dacfd8e5ffeOdjd5HYdwauaM6",
+        "model": "opencode/claude-haiku-4-5"
+      },
+      "human_author": "Łukasz Gładysz <lukasz@gladysz.me>",
+      "messages": [],
+      "total_additions": 119,
+      "total_deletions": 44,
+      "accepted_lines": 78,
+      "overriden_lines": 0
+    }
+  }
+}
